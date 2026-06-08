@@ -47,7 +47,7 @@ Built as a practical lab project aligned to real-world Application Security work
 
 ## Connection Inventory
 
-28 connections scanned across three regions:
+27 connections scanned across three regions:
 
 - **AMER** — Visa, SWIFT, Plaid, Moody's, Salesforce, TD Bank, internal servers
 - **EMEA** — Bloomberg, LexisNexis, legacy banking systems (Finacle, Temenos, Murex)
