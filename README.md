@@ -49,7 +49,7 @@ Built as a practical lab project aligned to real-world Application Security work
 
 28 connections scanned across three regions:
 
-- **AMER** — Visa, SWIFT, Plaid, Moody's, Salesforce, TD Bank, Rosh-Will LLC, internal servers
+- **AMER** — Visa, SWIFT, Plaid, Moody's, Salesforce, TD Bank, internal servers
 - **EMEA** — Bloomberg, LexisNexis, legacy banking systems (Finacle, Temenos, Murex)
 - **APAC** — Mastercard, AWS, legacy systems (FIS Global, Oracle FLEXCUBE, Finacle)
 
