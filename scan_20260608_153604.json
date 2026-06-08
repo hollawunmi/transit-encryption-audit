@@ -1,0 +1,553 @@
+{
+  "report_generated": "2026-06-08T15:36:05.285783+00:00",
+  "policy_version": "2024-Q1",
+  "total_connections": 27,
+  "certified": 10,
+  "failed": 10,
+  "manual_review": 7,
+  "connections": [
+    {
+      "connection_id": "CONN-001",
+      "app_owner": "Retail Banking API Team",
+      "vendor_name": "Visa Inc.",
+      "endpoint_host": "visa.com",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "PCI",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:53.100073+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-002",
+      "app_owner": "Corporate Banking",
+      "vendor_name": "SWIFT Network",
+      "endpoint_host": "swift.com",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "Confidential",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:53.249206+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-003",
+      "app_owner": "Digital Channels",
+      "vendor_name": "Plaid Technologies",
+      "endpoint_host": "plaid.com",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "PII",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_128_GCM_SHA256",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:53.394292+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-004",
+      "app_owner": "FX Trading Platform",
+      "vendor_name": "Bloomberg LP",
+      "endpoint_host": "bloomberg.com",
+      "endpoint_port": 443,
+      "region": "EMEA",
+      "data_classification": "Confidential",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_128_GCM_SHA256",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:53.488177+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-005",
+      "app_owner": "KYC/AML Compliance",
+      "vendor_name": "LexisNexis Risk",
+      "endpoint_host": "lexisnexis.com",
+      "endpoint_port": 443,
+      "region": "EMEA",
+      "data_classification": "PII",
+      "tls_version": "TLSv1.2",
+      "cipher_suite": "ECDHE-RSA-AES256-GCM-SHA384",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:53.572186+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-006",
+      "app_owner": "Payments Gateway",
+      "vendor_name": "Mastercard Intl.",
+      "endpoint_host": "mastercard.com",
+      "endpoint_port": 443,
+      "region": "APAC",
+      "data_classification": "PCI",
+      "tls_version": "TLSv1.2",
+      "cipher_suite": "ECDHE-RSA-AES256-GCM-SHA384",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:53.711876+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-007",
+      "app_owner": "Cloud Infrastructure",
+      "vendor_name": "AWS Financial Svcs",
+      "endpoint_host": "amazonaws.com",
+      "endpoint_port": 443,
+      "region": "APAC",
+      "data_classification": "Internal",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_128_GCM_SHA256",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:53.872361+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-008",
+      "app_owner": "Credit Risk Engine",
+      "vendor_name": "Moody's Analytics",
+      "endpoint_host": "moodys.com",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "Confidential",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:53.980224+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-009",
+      "app_owner": "CRM Platform",
+      "vendor_name": "Salesforce Inc.",
+      "endpoint_host": "salesforce.com",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "Confidential",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.093681+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-010",
+      "app_owner": "Retail Banking Portal",
+      "vendor_name": "TD Bank",
+      "endpoint_host": "td.com",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "PCI",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": true,
+      "findings": [
+        "PASS: All encryption checks passed"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.302640+00:00",
+      "recertification_status": "CERTIFIED"
+    },
+    {
+      "connection_id": "CONN-012",
+      "app_owner": "Legacy Settlements",
+      "vendor_name": "Finacle Core System",
+      "endpoint_host": "expired.badssl.com",
+      "endpoint_port": 443,
+      "region": "EMEA",
+      "data_classification": "Confidential",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": "Apr 12 23:59:59 2015 GMT",
+      "cert_issuer": "DigiCert",
+      "cert_subject": "expired.badssl.com",
+      "compliant": false,
+      "findings": [
+        "CRITICAL: Certificate EXPIRED 4074 days ago \u2014 connection must not be trusted"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.410363+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-013",
+      "app_owner": "Trade Matching Engine",
+      "vendor_name": "Temenos T24",
+      "endpoint_host": "wrong.host.badssl.com",
+      "endpoint_port": 443,
+      "region": "EMEA",
+      "data_classification": "PCI",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": "Jan 01 23:59:59 2027 GMT",
+      "cert_issuer": "DigiCert",
+      "cert_subject": "badssl.com",
+      "compliant": false,
+      "findings": [
+        "NON-COMPLIANT: Hostname mismatch \u2014 certificate issued to 'badssl.com' but connection is to 'wrong.host.badssl.com'"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.410623+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-014",
+      "app_owner": "Correspondent Banking API",
+      "vendor_name": "FIS Global Legacy",
+      "endpoint_host": "self-signed.badssl.com",
+      "endpoint_port": 443,
+      "region": "APAC",
+      "data_classification": "Confidential",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": "Jan 01 23:59:59 2027 GMT",
+      "cert_issuer": "BadSSL Self-Signed",
+      "cert_subject": "self-signed.badssl.com",
+      "compliant": false,
+      "findings": [
+        "NON-COMPLIANT: Self-signed certificate \u2014 not issued by a recognized Certificate Authority"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.410816+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-015",
+      "app_owner": "Sanctions Screening Feed",
+      "vendor_name": "Oracle FLEXCUBE",
+      "endpoint_host": "untrusted-root.badssl.com",
+      "endpoint_port": 443,
+      "region": "APAC",
+      "data_classification": "PII",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": "Jan 01 23:59:59 2027 GMT",
+      "cert_issuer": "BadSSL Untrusted Root CA",
+      "cert_subject": "untrusted-root.badssl.com",
+      "compliant": false,
+      "findings": [
+        "NON-COMPLIANT: Untrusted root CA \u2014 'BadSSL Untrusted Root CA' is not in the approved trust store"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.410929+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-016",
+      "app_owner": "Bond Trading Platform",
+      "vendor_name": "Murex MX.3 Gateway",
+      "endpoint_host": "revoked.badssl.com",
+      "endpoint_port": 443,
+      "region": "EMEA",
+      "data_classification": "Confidential",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": "Jan 01 23:59:59 2027 GMT",
+      "cert_issuer": "DigiCert",
+      "cert_subject": "revoked.badssl.com",
+      "compliant": false,
+      "findings": [
+        "CRITICAL: Certificate has been REVOKED by the issuing CA \u2014 connection must be blocked immediately"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.411098+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-017",
+      "app_owner": "Interbank Messaging",
+      "vendor_name": "FiServ Legacy Adapter",
+      "endpoint_host": "incomplete-chain.badssl.com",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "Confidential",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": "Jan 01 23:59:59 2027 GMT",
+      "cert_issuer": "DigiCert",
+      "cert_subject": "incomplete-chain.badssl.com",
+      "compliant": false,
+      "findings": [
+        "NON-COMPLIANT: Incomplete certificate chain \u2014 intermediate CA certificate missing, chain cannot be verified"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.411218+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-018",
+      "app_owner": "Vendor Payment Bridge",
+      "vendor_name": "Legacy FX Settlement",
+      "endpoint_host": "rc4.badssl.com",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "PCI",
+      "tls_version": "TLSv1.2",
+      "cipher_suite": "RC4-MD5",
+      "cert_expiry": "Jan 01 23:59:59 2027 GMT",
+      "cert_issuer": "DigiCert",
+      "cert_subject": "rc4.badssl.com",
+      "compliant": false,
+      "findings": [
+        "NON-COMPLIANT: Cipher RC4-MD5 is cryptographically broken and banned under policy",
+        "NON-COMPLIANT: RC4 cipher provides no Perfect Forward Secrecy (PFS)"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.411310+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-019",
+      "app_owner": "Core Banking Interface",
+      "vendor_name": "Finacle TLSv1.0 Node",
+      "endpoint_host": "tls-v1-0.badssl.com",
+      "endpoint_port": 1010,
+      "region": "APAC",
+      "data_classification": "Confidential",
+      "tls_version": "TLSv1.0",
+      "cipher_suite": "AES128-SHA",
+      "cert_expiry": "Jan 01 23:59:59 2027 GMT",
+      "cert_issuer": "DigiCert",
+      "cert_subject": "tls-v1-0.badssl.com",
+      "compliant": false,
+      "findings": [
+        "NON-COMPLIANT: TLS version TLSv1.0 is below minimum required TLSv1.2",
+        "NON-COMPLIANT: TLSv1.0 is deprecated per RFC 8996 and banned under policy"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.411479+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-020",
+      "app_owner": "Trade Finance Portal",
+      "vendor_name": "Temenos TLSv1.1 Node",
+      "endpoint_host": "tls-v1-1.badssl.com",
+      "endpoint_port": 1011,
+      "region": "EMEA",
+      "data_classification": "PCI",
+      "tls_version": "TLSv1.1",
+      "cipher_suite": "AES128-SHA",
+      "cert_expiry": "Jan 01 23:59:59 2027 GMT",
+      "cert_issuer": "DigiCert",
+      "cert_subject": "tls-v1-1.badssl.com",
+      "compliant": false,
+      "findings": [
+        "NON-COMPLIANT: TLS version TLSv1.1 is below minimum required TLSv1.2",
+        "NON-COMPLIANT: TLSv1.1 is deprecated per RFC 8996 and banned under policy"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.411625+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-021",
+      "app_owner": "PKI Certificate Service",
+      "vendor_name": "Entrust SHA1 Bridge",
+      "endpoint_host": "sha1-intermediate.badssl.com",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "Internal",
+      "tls_version": "TLSv1.3",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cert_expiry": "Jan 01 23:59:59 2027 GMT",
+      "cert_issuer": "BadSSL SHA-1 Intermediate CA",
+      "cert_subject": "sha1-intermediate.badssl.com",
+      "compliant": false,
+      "findings": [
+        "NON-COMPLIANT: Certificate chain contains SHA-1 signed intermediate CA \u2014 SHA-1 is cryptographically weak and banned under policy"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.411751+00:00",
+      "recertification_status": "FAILED"
+    },
+    {
+      "connection_id": "CONN-022",
+      "app_owner": "Core Banking Team",
+      "vendor_name": "App Server 01 (LAB-PROD-AS01)",
+      "endpoint_host": "10.0.1.50",
+      "endpoint_port": 8443,
+      "region": "AMER",
+      "data_classification": "Confidential",
+      "tls_version": null,
+      "cipher_suite": null,
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": null,
+      "findings": [
+        "CONNECTIVITY_ERROR: timed out \u2014 Manual review required"
+      ],
+      "last_scanned": "2026-06-08T15:34:54.411879+00:00",
+      "recertification_status": "MANUAL_REVIEW"
+    },
+    {
+      "connection_id": "CONN-023",
+      "app_owner": "Payments Infrastructure",
+      "vendor_name": "Load Balancer Primary (LB-PAY01)",
+      "endpoint_host": "10.0.2.10",
+      "endpoint_port": 443,
+      "region": "AMER",
+      "data_classification": "PCI",
+      "tls_version": null,
+      "cipher_suite": null,
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": null,
+      "findings": [
+        "CONNECTIVITY_ERROR: timed out \u2014 Manual review required"
+      ],
+      "last_scanned": "2026-06-08T15:35:04.469210+00:00",
+      "recertification_status": "MANUAL_REVIEW"
+    },
+    {
+      "connection_id": "CONN-024",
+      "app_owner": "Database Administration",
+      "vendor_name": "Oracle DB Primary (DB-CORE-01)",
+      "endpoint_host": "10.0.5.12",
+      "endpoint_port": 2484,
+      "region": "AMER",
+      "data_classification": "PCI",
+      "tls_version": null,
+      "cipher_suite": null,
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": null,
+      "findings": [
+        "CONNECTIVITY_ERROR: timed out \u2014 Manual review required"
+      ],
+      "last_scanned": "2026-06-08T15:35:14.577783+00:00",
+      "recertification_status": "MANUAL_REVIEW"
+    },
+    {
+      "connection_id": "CONN-025",
+      "app_owner": "Network Security",
+      "vendor_name": "Core Firewall MGMT (FW-CORE-01)",
+      "endpoint_host": "172.16.0.1",
+      "endpoint_port": 8443,
+      "region": "AMER",
+      "data_classification": "Internal",
+      "tls_version": null,
+      "cipher_suite": null,
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": null,
+      "findings": [
+        "CONNECTIVITY_ERROR: timed out \u2014 Manual review required"
+      ],
+      "last_scanned": "2026-06-08T15:35:24.661137+00:00",
+      "recertification_status": "MANUAL_REVIEW"
+    },
+    {
+      "connection_id": "CONN-026",
+      "app_owner": "FX Trading Infra",
+      "vendor_name": "Trading Engine Node (EMEA-TX-01)",
+      "endpoint_host": "172.16.10.55",
+      "endpoint_port": 9443,
+      "region": "EMEA",
+      "data_classification": "Confidential",
+      "tls_version": null,
+      "cipher_suite": null,
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": null,
+      "findings": [
+        "CONNECTIVITY_ERROR: timed out \u2014 Manual review required"
+      ],
+      "last_scanned": "2026-06-08T15:35:34.720249+00:00",
+      "recertification_status": "MANUAL_REVIEW"
+    },
+    {
+      "connection_id": "CONN-027",
+      "app_owner": "Integration Middleware",
+      "vendor_name": "API Gateway Node (APAC-GW-01)",
+      "endpoint_host": "192.168.5.100",
+      "endpoint_port": 9443,
+      "region": "APAC",
+      "data_classification": "Internal",
+      "tls_version": null,
+      "cipher_suite": null,
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": null,
+      "findings": [
+        "CONNECTIVITY_ERROR: timed out \u2014 Manual review required"
+      ],
+      "last_scanned": "2026-06-08T15:35:44.769267+00:00",
+      "recertification_status": "MANUAL_REVIEW"
+    },
+    {
+      "connection_id": "CONN-028",
+      "app_owner": "KYC/AML Platform",
+      "vendor_name": "Screening Server (AML-SRV-02)",
+      "endpoint_host": "192.168.10.22",
+      "endpoint_port": 8080,
+      "region": "APAC",
+      "data_classification": "PII",
+      "tls_version": null,
+      "cipher_suite": null,
+      "cert_expiry": null,
+      "cert_issuer": null,
+      "cert_subject": null,
+      "compliant": null,
+      "findings": [
+        "CONNECTIVITY_ERROR: timed out \u2014 Manual review required"
+      ],
+      "last_scanned": "2026-06-08T15:35:54.810863+00:00",
+      "recertification_status": "MANUAL_REVIEW"
+    }
+  ]
+}
